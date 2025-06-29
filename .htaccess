@@ -1,0 +1,2 @@
+<!-- If you're using plain HTML, you can add this to redirect HTTP to HTTPS -->
+<meta http-equiv="refresh" content="0; url=https://intellium.space">
