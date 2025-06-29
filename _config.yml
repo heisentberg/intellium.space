@@ -1,0 +1,41 @@
+# Site settings
+title: Intellium
+description: "Intellium нь Sports Betting болон Trading-ийн дэвшилтэт таамаг, стратегиудыг багтаасан хиймэл оюун ухаанд суурилсан платформ юм."
+url: "https://username.github.io"
+baseurl: "/intellium.space"
+
+# Build settings
+markdown: kramdown
+
+# GitHub Pages plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude files
+exclude:
+  - README.md
+  - LICENSE
+  - node_modules
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+
+# Include files
+include:
+  - _pages
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default" 
